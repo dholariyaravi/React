@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom/client';
+import "bootstrap/dist/css/bootstrap.css";
 // import './index.css';
 // import App from './App';
 // import './Demo.css';
@@ -24,7 +25,9 @@ import reportWebVitals from './reportWebVitals';
 // import Timer from './Reack Hooks/Ueffect';
 // import Componet1 from './Reack Hooks/Context';
 import './Practice/Styles.css'; 
-import "bootstrap/dist/css/bootstrap.css";
+import './Practice/Data12.css';
+import'./Practice/Preec.css';
+
 
 import Use from './Practice/Use';
 import Fullname from './Practice/Fullname';
@@ -33,8 +36,10 @@ import Data from './Practice/Data';
 import Ujs from './Ujs';
 import Newdata from './Practice/Newdata';
 import Newdata1 from './Practice/NewData1';
+import Exam from './Practice/Exam';
+import Prectis from './Practice/Prectis';
 
-import './Practice/Data12.css';
+
 
 
 
@@ -73,8 +78,11 @@ root.render(
     {/* <Test/>  */}
     {/* <Ujs/>  */}
    {/* <Data/> */}
-   <Newdata/>
-   <Newdata1/>
+   {/* <Newdata/>
+   <Newdata1/> */}
+  {/* <Exam/> */}
+  <Prectis/>
+
 
    
     {/* <Demo Name="my"/>

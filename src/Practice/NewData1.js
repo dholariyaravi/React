@@ -1,9 +1,7 @@
 import React from 'react'
 import './Data12.css';
-import menu from './Jsxa';
-
+import menu from './Jsxa1';
 import p from "./images/item-1.jpeg";
-
 
 export default function Newdata1() {
 
@@ -29,10 +27,11 @@ export default function Newdata1() {
       </div>
       {/* <!-- menu items --> */}
       <div class="section-center">
-        {/* <!-- single item --> */}
 
-     {menu.map((value)=> {
+          {/* ==================={{map}} =================== {{}}=============  */}
 
+     {menu.map((value,index,array)=> {
+     
       return (
         <article class="menu-item">
         <img src={p} alt="menu item" class="photo" />
@@ -41,7 +40,7 @@ export default function Newdata1() {
             <h4>{value.title}</h4>
             <h4>{value.price} $15</h4>
           </header>
-          <p>
+          <p> 
             {value.desc}
           </p>
         </div>
@@ -49,9 +48,10 @@ export default function Newdata1() {
       );
      })}
      
-         
+        {/* <!-- end of single item --> */}
+        {/* <!-- single item --> */}
 
-        <article class="menu-item">
+        {/* <article class="menu-item">
           <img src="./menu-item.jpeg" alt="menu item" class="photo" />
           <div class="item-info">
             <header>
@@ -64,39 +64,11 @@ export default function Newdata1() {
               laboriosam excepturi! Quo, officia.
             </p>
           </div>
-        </article>
+        </article> */}
+
         {/* <!-- end of single item --> */}
         {/* <!-- single item --> */}
-        <article class="menu-item">
-          <img src="./menu-item.jpeg" alt="menu item" class="photo" />
-          <div class="item-info">
-            <header>
-              <h4>buttermilk pancakes</h4>
-              <h4 class="price">$15</h4>
-            </header>
-            <p class="item-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae, sint quam. Et reprehenderit fugiat nesciunt inventore
-              laboriosam excepturi! Quo, officia.
-            </p>
-          </div>
-        </article>
-        {/* <!-- end of single item --> */}
-        {/* <!-- single item --> */}
-        <article class="menu-item">
-          <img src="./menu-item.jpeg" alt="menu item" class="photo" />
-          <div class="item-info">
-            <header>
-              <h4>buttermilk pancakes</h4>
-              <h4 class="price">$15</h4>
-            </header>
-            <p class="item-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae, sint quam. Et reprehenderit fugiat nesciunt inventore
-              laboriosam excepturi! Quo, officia.
-            </p>
-          </div>
-        </article>
+      
         {/* <!-- end of single item --> */}
       </div>
     </section>

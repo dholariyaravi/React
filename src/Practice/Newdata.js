@@ -9,10 +9,10 @@ import reviews from "./map.js";
       
 
         const next = ()  =>{
-           index >= reviews.length -1 ? setindex(0) :setindex( index+1);
+          index >= reviews.length -1 ? setindex(0): setindex( index+1);
         };
         const pre = ()  => {
-           index <= 0 ? setindex (reviews.length -1) : setindex (index -1);
+          index <= 0 ? setindex(reviews.length -1): setindex (index -1);
         };
         
         // total 5 value che  jayre 0 hoy yare 
