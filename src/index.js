@@ -11,8 +11,8 @@ import reportWebVitals from './reportWebVitals';
 // import { Container } from './Container';
 // import Garage, { Cars } from './Info';
 // import Event from './Event';
-// import Goal from './Conditional';
-// import Liston from './Lists';
+import Goal from './Conditional';
+import Liston from './Lists';
 
 // import {  Routes, Route, BrowserRouter } from "react-router-dom";
 // import Layout from './Pages/Layout';
@@ -27,7 +27,9 @@ import reportWebVitals from './reportWebVitals';
 import './Practice/Styles.css'; 
 import './Practice/Data12.css';
 import'./Practice/Preec.css';
-import "./Practice/CSS/Jsxdata.css"
+import "./Practice/CSS/Jsxdata.css";
+import "./Practice/CSS/From2.css";
+
 
 
 import Use from './Practice/Use';
@@ -40,6 +42,14 @@ import Newdata1 from './Practice/NewData1';
 import Exam from './Practice/Exam';
 import Prectis from './Practice/Prectis';
 import JsxData from './Practice/JsxData';
+import MYcowiddata from './Practice/MYcowiddata';
+import Axiosdata from './Practice/Axiosdata';
+import From2 from './Practice/FromData2';
+import FromData2 from './Practice/FromData2';
+import Myform from './Practice/Myform';
+
+
+
 
 
 
@@ -85,8 +95,15 @@ root.render(
    {/* <Newdata/>
    <Newdata1/> */}
   {/* <Exam/> */}
-  <JsxData/>
-  <Prectis/>
+  {/* <JsxData/> */}
+  {/* <Prectis/> */}
+  {/* <MYcowiddata/> */}
+  {/* <Axiosdata/> */}
+  {/* <Myform/> */} 
+  <FromData2/>
+ 
+
+ 
   
 
 
@@ -96,9 +113,11 @@ root.render(
     <br/>
     <Container/>
     <Garage/>
-    <Event/>
-    <Goal isGame={true}/> 
-    <Liston/> */}
+    <Event/>*/}
+    {/* <Goal isGame={true}/> 
+    <Liston/>  */}
+
+
     
   </React.StrictMode>
 

@@ -4,7 +4,7 @@ import "./CSS/Jsxdata.css"
 export default function JsxData() {
 
     const [updet,setupdet] = useState([]);
-    const [file,setfile]= useState();
+    const [file,setfile]= useState('');
 
     useEffect ( ()=> {
         fetch('https://jsonplaceholder.typicode.com/users')
@@ -22,10 +22,16 @@ export default function JsxData() {
     <div>
         <h4>
     {updet.filter((value,index,array) =>{
-         return value.name.indexOf(file) >=0;
+         return value.name ?.toUpperCase().indexOf(file.toUpperCase()) >=0;
        })
     .map((event) => { 
-     return( <h2>{event.name}</h2> );
+     return(
+      <table>
+        <tr><td>{event.name}</td>
+        <td>{event.id}</td>
+        </tr>
+          </table>
+      );
        })}
      <input class="p-1"  type='text' onChange={Chenjdata}/>
 
@@ -40,7 +46,7 @@ export default function JsxData() {
            <tr>
               <td> {element.id}</td>
               <tr><td> {element.name}</td></tr> 
-               <tr> <td>  {element.username}</td> </tr>
+               {/* <tr> <td>  {element.username}</td> </tr> */}
                <td> {element.email}</td> 
          <td> {element.address.street}</td>
          <td> {element.address.suite} </td>
