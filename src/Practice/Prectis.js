@@ -13,18 +13,41 @@ export default function Prectis() {
         });
     },[])
 
-    function Click() {
 
+    const asending = () => {
+      let mydata = data.sort(function(a,b) {
+  
+        if(a.id > b.id)
+        return 1
+        else
+        return -1;
+  
+      })
+      // fachData(mydata)
     }
-    function add (){
+  
+    const disending = () => {
+      let mydata1 = data.sort(function(a,b) {
+  
+        if(a.id > b.id)
+        return -1
+        else
+        return 1;
+  
+      })
+  
+      // console.log(mydata1);
+      // fachData(mydata1)
+      // console.log(data);
+    }
 
-    }
 
   return (
     <div>
-        <table>
+        {/* <table>
         {data.map((elment) => {
             return(
+              
                <tr>
                  <img src={elment.image} className="t24"/>
                 <td class=''>{elment.id} </td>
@@ -35,10 +58,14 @@ export default function Prectis() {
              );  
         })  
         }
-        </table>
+        </table> */}
+        {data.map ((elment) =>{
+            return (<>{elment.id} </> )
+         })
+        }
 
-        <button class="btn btn-danger" onClick={Click}>click</button> 
-        <button class="btn btn-dark" onClick={add}>Add</button>
+        <button class="btn btn-danger" onClick={asending}>click</button> 
+        <button class="btn btn-dark" onClick={disending}>Add</button>
          
     </div>
   )

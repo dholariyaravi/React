@@ -27,6 +27,7 @@ import reportWebVitals from './reportWebVitals';
 import './Practice/Styles.css'; 
 import './Practice/Data12.css';
 import'./Practice/Preec.css';
+import "./Practice/CSS/Jsxdata.css"
 
 
 import Use from './Practice/Use';
@@ -38,6 +39,8 @@ import Newdata from './Practice/Newdata';
 import Newdata1 from './Practice/NewData1';
 import Exam from './Practice/Exam';
 import Prectis from './Practice/Prectis';
+import JsxData from './Practice/JsxData';
+
 
 
 
@@ -73,6 +76,7 @@ root.render(
     <UState/>
     <Timer/>
    <Componet1/> */}
+
    {/* <Use/>
    <Fullname/>*/}
     {/* <Test/>  */}
@@ -81,7 +85,9 @@ root.render(
    {/* <Newdata/>
    <Newdata1/> */}
   {/* <Exam/> */}
+  <JsxData/>
   <Prectis/>
+  
 
 
    

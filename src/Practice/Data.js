@@ -18,8 +18,8 @@ export default function Data() {
     {reviews.filter((value,indet,array) =>{
          return value.name.indexOf(file) >=0;
 
-    }).map((Data) => { 
-     return( <h2>{Data.name}</h2> );
+    }).map((event) => { 
+     return( <h2>{event.name}</h2> );
        })}
      <input type='text' onChange={Chenjdata}/>
 
