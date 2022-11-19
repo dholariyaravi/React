@@ -17,6 +17,7 @@ export default function JsxData() {
     const Chenjdata = (p) => {
       setfile(p.target.value)
      }
+     
 
   return (
     <div>
@@ -27,10 +28,11 @@ export default function JsxData() {
     .map((event) => { 
      return(
       <table>
-        <tr><td>{event.name}</td>
-        <td>{event.id}</td>
-        </tr>
-          </table>
+         <tr>
+            <td>{event.name}</td>
+            <td>{event.id}</td>
+         </tr>
+       </table>
       );
        })}
      <input class="p-1"  type='text' onChange={Chenjdata}/>
@@ -38,6 +40,7 @@ export default function JsxData() {
      <button class="btn btn-dark m-2" type='button'>click</button>
      <b>{setfile}</b>
      </h4>
+
 
    {/* -------------------------------------------------------------------  */}
         <table>

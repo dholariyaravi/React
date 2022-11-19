@@ -31,7 +31,6 @@ import "./Practice/CSS/Jsxdata.css";
 import "./Practice/CSS/From2.css";
 
 
-
 import Use from './Practice/Use';
 import Fullname from './Practice/Fullname';
 import Test from './Practice/Test';
@@ -47,9 +46,10 @@ import Axiosdata from './Practice/Axiosdata';
 import From2 from './Practice/FromData2';
 import FromData2 from './Practice/FromData2';
 import Myform from './Practice/Myform';
-
-
-
+import LocalStoreg from './Practice/LocalStoreg';
+import Datafetch from './Task/Datafetch';
+import Dataaxios from './Task/Axiosdata';
+import From123 from './Task/From123';
 
 
 
@@ -99,8 +99,14 @@ root.render(
   {/* <Prectis/> */}
   {/* <MYcowiddata/> */}
   {/* <Axiosdata/> */}
-  {/* <Myform/> */} 
-  <FromData2/>
+  {/* <Myform/>  */}
+  {/* <FromData2/> */}
+  {/* <LocalStoreg/> */}
+  {/* <Datafetch/> */}
+  {/* <Dataaxios/> */}
+  <From123/>
+  
+
  
 
  
