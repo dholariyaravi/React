@@ -31,6 +31,11 @@ import "./Practice/CSS/Jsxdata.css";
 import "./Practice/CSS/From2.css";
 
 
+
+
+
+
+
 import Use from './Practice/Use';
 import Fullname from './Practice/Fullname';
 import Test from './Practice/Test';
@@ -50,6 +55,14 @@ import LocalStoreg from './Practice/LocalStoreg';
 import Datafetch from './Task/Datafetch';
 import Dataaxios from './Task/Axiosdata';
 import From123 from './Task/From123';
+import Data432 from './Task/Data432';
+import From444 from './Task/From444';
+import Api from './Practice11/Api';
+import Api1 from './Practice11/Api1';
+import Api2 from './Practice11/Api2';
+import Api3 from './Practice11/Api3';
+import From222 from './Task/From222';
+import Fromlo124 from './Task/Fromlo124';
 
 
 
@@ -104,7 +117,16 @@ root.render(
   {/* <LocalStoreg/> */}
   {/* <Datafetch/> */}
   {/* <Dataaxios/> */}
-  <From123/>
+  {/* <From123/> */}
+  {/* < Data432/> */}
+  {/* <Api/> */}
+  {/* <Api1/> */}
+  {/* <Api2/> */}
+  {/* <Api3/> */}
+   {/* <From444/> */} 
+   {/* <From222/> */}
+   <Fromlo124/>
+   
   
 
  
