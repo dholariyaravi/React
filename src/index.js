@@ -24,11 +24,13 @@ import Liston from './Lists';
 // import UState from './Reack Hooks/Uses';
 // import Timer from './Reack Hooks/Ueffect';
 // import Componet1 from './Reack Hooks/Context';
-import './Practice/Styles.css'; 
-import './Practice/Data12.css';
-import'./Practice/Preec.css';
-import "./Practice/CSS/Jsxdata.css";
-import "./Practice/CSS/From2.css";
+
+// import './Practice/Styles.css'; 
+// import './Practice/Data12.css';
+// import'./Practice/Preec.css';
+// import "./Practice/CSS/Jsxdata.css";
+// import "./Practice/CSS/From2.css";
+
 
 
 
@@ -63,6 +65,12 @@ import Api2 from './Practice11/Api2';
 import Api3 from './Practice11/Api3';
 import From222 from './Task/From222';
 import Fromlo124 from './Task/Fromlo124';
+import From555 from './Task/From555';
+import Fromsi1 from './Fromsipal.js/Fromsi1';
+import Fromfim2 from './Fromsipal.js/Fromfim2';
+import Formiktest from './Fromsipal.js/Formiktest';
+
+
 
 
 
@@ -125,7 +133,12 @@ root.render(
   {/* <Api3/> */}
    {/* <From444/> */} 
    {/* <From222/> */}
-   <Fromlo124/>
+   {/* <Fromlo124/> */}
+   {/* <From555/> */}
+    {/* <Fromsi1/> */}
+  {/* <Fromfim2/> */}
+  <Formiktest/>
+
    
   
 

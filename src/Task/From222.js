@@ -13,16 +13,16 @@ export default function From222() {
 
     const Degreedata = [
         {value:'B.com ' ,label :"B.com"},
-        {value:'Aras ' ,label :"aras"},
-        {value:'BAC ' ,label :"BAC"},
-        {value:'B.com ' ,label :"B.com"}
+        {value:'Art ' ,label :"art"},
+        {value:'BCA ' ,label :"BCA"},
+        {value:'B.Tech ' ,label :"B.Tech"}
     ];
 
     const collegsdata = [
         {value:'msu' ,label :"msu"},
-        {value:'kirshna' ,label :"kirshna"},
+        {value:'Marwadi' ,label :"Marwadi"},
         {value:'parul ' ,label :"parul"},
-        {value:'kathiyawad' ,label :"kathiyawad"}
+        {value:'RK University' ,label :"RK University"}
         
     ];
 

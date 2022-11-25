@@ -1,10 +1,17 @@
 body {
-    background-color: #303245;
+  
     align-items: center;
     display: flex;
     justify-content: center;
    
   }
+  /* body{
+    background-image: url("img/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative; 
+  } */
   
   .form {
     background-color: #15172b;
@@ -14,6 +21,18 @@ body {
     padding: 20px;
     width: 320px;
   }
+  .btn12{
+    background-color: #f7f7fa;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border: 10;
+  }
+  .btn12:hover {
+    background-color: aqua;
+  }
   
   .title {
     color: #eee;
@@ -22,8 +41,6 @@ body {
     font-weight: 600;
     margin-top: 30px;
   }
-  
-
   
   .input-container {
     height: 35px;
@@ -45,7 +62,6 @@ body {
     border-radius: 20px;
     border: 0;
     box-sizing: border-box;
-  
     font-size: 18px;
     height: 100%;
     outline: 0;

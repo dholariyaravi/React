@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+    margin:20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   
+  }
+
+  .from122 {
+    background-color: #6b6d84;
+    border-radius: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    height: 700px;
+    padding: 80px;
+    width: 520px;
+    display: block;
+  }
+  .text{
+    text-align: center;
+    display: block;
+  }
+  .coll-11 {
+    width: 360px;
+
+  }
+  
