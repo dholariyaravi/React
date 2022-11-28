@@ -3,7 +3,7 @@ import React from 'react'
 export default function Propas13(data1) {
   return (
    
-    <div className='col-4'>
+    <div className='col-sm-4'>
     <div class="card" style={{width: "310px"}}>
 
          <h4 class="price">{data1.recod.albumId}</h4>

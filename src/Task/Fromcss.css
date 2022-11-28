@@ -4,7 +4,7 @@ input {
   caret-color: red;
 }
 
-body {
+/* body {
   margin: 0;
   width: 100vw;
   height: 180vh;
@@ -14,9 +14,10 @@ body {
   text-align: center;
   justify-content: center;  
   place-items: center;
-  /* overflow: hidden; */
   font-family: poppins;
-}
+} */
+
+/* overflow: hidden; */
 
 /* .container {
   position: relative;

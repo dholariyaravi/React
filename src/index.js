@@ -65,6 +65,7 @@ import Formiktest from './Fromsipal.js/Formiktest';
 import Pro12 from './PropasTwo/Pro12';
 import Prop1 from './PropasTwo/Prop1';
 import Fromtest99 from './Fromsipal.js/Fromtest99';
+import Item from './PropasTwo/Item';
 
 
 
@@ -132,8 +133,9 @@ root.render(
   {/* <Fromfim2/> */}
   {/* <Formiktest/> */}
    {/* <Pro12/> */}
-   <Prop1/>
+   {/* <Prop1/> */}
    {/* <Fromtest99/> */}
+   <Item/>
 
   
 
