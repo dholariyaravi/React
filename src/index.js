@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom/client';
 import "bootstrap/dist/css/bootstrap.css";
-// import './index.css';
-// import App from './App';
-// import './Demo.css';
 
 // import Demo from './Demo.js';
 import reportWebVitals from './reportWebVitals';
@@ -30,10 +27,6 @@ import Liston from './Lists';
 // import'./Practice/Preec.css';
 // import "./Practice/CSS/Jsxdata.css";
 // import "./Practice/CSS/From2.css";
-
-
-
-
 
 
 
@@ -69,9 +62,9 @@ import From555 from './Task/From555';
 import Fromsi1 from './Fromsipal.js/Fromsi1';
 import Fromfim2 from './Fromsipal.js/Fromfim2';
 import Formiktest from './Fromsipal.js/Formiktest';
-
-
-
+import Pro12 from './PropasTwo/Pro12';
+import Prop1 from './PropasTwo/Prop1';
+import Fromtest99 from './Fromsipal.js/Fromtest99';
 
 
 
@@ -137,9 +130,11 @@ root.render(
    {/* <From555/> */}
     {/* <Fromsi1/> */}
   {/* <Fromfim2/> */}
-  <Formiktest/>
+  {/* <Formiktest/> */}
+   {/* <Pro12/> */}
+   <Prop1/>
+   {/* <Fromtest99/> */}
 
-   
   
 
  
@@ -164,4 +159,4 @@ root.render(
 
 );
 
-reportWebVitals();
+reportWebVitals(); 

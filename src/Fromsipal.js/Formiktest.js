@@ -51,7 +51,7 @@ export default function Formiktest() {
       >
         <Form class='from122'>
             <label>firstname</label>
-            <Field type="text" name="firstname" class="coll-11"/><br/>
+            <Field type="text" name="firstname" placeHolder='Enter Your firstname' class="coll-11"/><br/>
             <ErrorMessage
             name="firstname"
             component="div"
@@ -59,7 +59,7 @@ export default function Formiktest() {
             />
 
             <label>lastname</label>
-            <Field type="text" name="lastname" class="coll-11"/> <br/>
+            <Field type="text" name="lastname" placeHolder='Enter Your lastname' class="coll-11"/> <br/>
             <ErrorMessage
             name="lastname"
             component="div"
@@ -123,7 +123,6 @@ export default function Formiktest() {
             <option value="dark">USE</option>
             </Field> 
             <ErrorMessage name='country'/> <br/><br/> <br/>
-
 
             <input type="submit" value="Save" className='btn btn-dark'/> <br/>
 

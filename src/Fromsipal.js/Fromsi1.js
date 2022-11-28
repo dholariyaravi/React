@@ -1,6 +1,6 @@
 import { Formik ,Field, Form, ErrorMessage} from 'formik'
 import React from 'react';
-import"./Fromsi1.css";
+
 
 
 export default function Fromsi1() {
@@ -32,29 +32,29 @@ export default function Fromsi1() {
         
             <Form class='from122'> 
          <label>firstName</label>
-         <Field type="text" name="firstName" /> <br/> <br/>
+         <Field type="text" name="firstName" class="coll-11"/> <br/> <br/>
         
 
          <label>LastName</label>
-         <Field type="text" name="LastName" /><br/> <br/>
+         <Field type="text" name="LastName" class="coll-11" /><br/> <br/>
 
         
          <label>addres</label>
-         <Field type="text" name="addres" /><br/> <br/>
+         <Field type="text" name="addres" class="coll-11" /><br/> <br/>
 
          <label>state</label>
-         <Field type="text" name="state" /><br/> <br/>
+         <Field type="text" name="state"class="coll-11" /><br/> <br/>
 
          <label>country</label>
-         <Field type="text" name="country" /><br/> <br/>
+         <Field type="text" name="country"class="coll-11" /><br/> <br/>
 
          <label>city</label>
-         <Field type="text" name="city" /><br/> <br/>
+         <Field type="text" name="city" class="coll-11"/><br/> <br/>
 
          <label>colification</label>
-         <Field type="text" name="colification" /><br/> <br/>
+         <Field type="text" name="colification"class="coll-11" /><br/> <br/>
 
-         <input class="btn btn-denger" type='submit' value='save'/>
+         <input class="btn btn-denger" type='submit' value='save' />
 
 
     
