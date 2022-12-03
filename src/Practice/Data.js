@@ -20,7 +20,9 @@ export default function Data() {
 
     }).map((event) => { 
      return( <h2>{event.name}</h2> );
-       })}
+       })
+       }      
+
      <input type='text' onChange={Chenjdata}/>
 
      <button type='button' >click</button>

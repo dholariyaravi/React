@@ -22,6 +22,7 @@ export default function JsxData() {
   return (
     <div>
         <h4>
+
     {updet.filter((value,index,array) =>{
          return value.name ?.toUpperCase().indexOf(file.toUpperCase()) >=0;
        })
@@ -39,6 +40,7 @@ export default function JsxData() {
 
      <button class="btn btn-dark m-2" type='button'>click</button>
      <b>{setfile}</b>
+     
      </h4>
 
 

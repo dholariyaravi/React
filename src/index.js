@@ -2,33 +2,14 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom/client';
 import "bootstrap/dist/css/bootstrap.css";
 
-// import Demo from './Demo.js';
 import reportWebVitals from './reportWebVitals';
-// import Name from './Footer';
-// import { Container } from './Container';
-// import Garage, { Cars } from './Info';
-// import Event from './Event';
-import Goal from './Conditional';
-import Liston from './Lists';
 
-// import {  Routes, Route, BrowserRouter } from "react-router-dom";
-// import Layout from './Pages/Layout';
-// import Home from './Pages/Home';
-// import Contact from './Pages/Contact';
-// import Blogs from './Pages/Blogs';
-// import Styling from './Styling';
-// import Nopage from './Pages/Nopage';
-// import UState from './Reack Hooks/Uses';
-// import Timer from './Reack Hooks/Ueffect';
-// import Componet1 from './Reack Hooks/Context';
 
 // import './Practice/Styles.css'; 
 // import './Practice/Data12.css';
 // import'./Practice/Preec.css';
 // import "./Practice/CSS/Jsxdata.css";
 // import "./Practice/CSS/From2.css";
-
-
 
 
 import Use from './Practice/Use';
@@ -66,6 +47,16 @@ import Pro12 from './PropasTwo/Pro12';
 import Prop1 from './PropasTwo/Prop1';
 import Fromtest99 from './Fromsipal.js/Fromtest99';
 import Item from './PropasTwo/Item';
+import Deleteitem from './PropasTwo/Deleteitem';
+import Grid1 from './Grid/Grid1';
+import Grid2img from './Grid/Grid2img';
+import Classapi from './Class/Classapi';
+import Form11 from './Class/Form11';
+import Fomr12 from './Class/Form12';
+
+
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
@@ -73,43 +64,22 @@ import Item from './PropasTwo/Item';
 
 
 
-
-
-// export default function Router(){
-//   return(
-//    <BrowserRouter>
-//       <Routes>
-//         <Route path="/" element={<Layout/>}>
-//           <Route index  element={<Home />} />
-//           <Route path="blogs" element={<Blogs />} />
-//           <Route path="contact" element={<Contact />} />
-//           <Route path="*" element={<Nopage
-//            />} />
-//         </Route>
-//       </Routes>
-//     </BrowserRouter>
-//   );
-// };
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render( 
   <React.StrictMode>
-    {/* <App />
-    <Router/>
-    <Styling/>
-    <UState/>
-    <Timer/>
-   <Componet1/> */}
+     {/* <App /> */}
+    
 
-   {/* <Use/>
-   <Fullname/>*/}
+   {/* <Use/> */}
+   {/* <Fullname/> */}
     {/* <Test/>  */}
     {/* <Ujs/>  */}
    {/* <Data/> */}
    {/* <Newdata/>
    <Newdata1/> */}
-  {/* <Exam/> */}
+    {/* <Exam/> */}
   {/* <JsxData/> */}
   {/* <Prectis/> */}
   {/* <MYcowiddata/> */}
@@ -135,28 +105,19 @@ root.render(
    {/* <Pro12/> */}
    {/* <Prop1/> */}
    {/* <Fromtest99/> */}
-   <Item/>
-
-  
-
- 
-
- 
-  
-
-
+   {/* <Item/> */}
+   {/* <Deleteitem/> */}
+   {/* <Grid1/> */}
+   {/* <Grid2img/> */}
+   {/* <Classapi/> */}
+    <Fomr12/>
+ <ToastContainer />
+    <Form11/>
    
-    {/* <Demo Name="my"/>
-    <Name Favc="black car"/>
-    <br/>
-    <Container/>
-    <Garage/>
-    <Event/>*/}
-    {/* <Goal isGame={true}/> 
-    <Liston/>  */}
+   
+   
 
 
-    
   </React.StrictMode>
 
 );

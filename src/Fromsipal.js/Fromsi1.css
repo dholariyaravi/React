@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-/* body {
+/* body{
     margin:20px;
     align-items: center;
     display: flex;
@@ -10,11 +10,12 @@
   } */
 
   .from122 {
-    background-color: #6b6d84;
+    
+    background-color: rgb(175, 198, 198);
     border-radius: 20px;
     text-align: center;
     box-sizing: border-box;
-    height: 700px;
+    height: auto;
     padding: 80px;
     width: 520px;
     display: block;

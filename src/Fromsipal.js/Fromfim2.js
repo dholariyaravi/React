@@ -13,7 +13,7 @@ export default function Fromfim2() {
              carmodal:'',
              carmake:'',
              Engintype:[ ],
-             gendar:'',
+             fualtype:'',
         }}
 
           onSubmit = { (val) => {
@@ -49,11 +49,11 @@ export default function Fromfim2() {
         issue<br/> <br/>  
 
 
-          <Field type="radio" name="gendar" value="fualtype" />
+          <Field type="radio" name="fualtype" value="fualtype" />
           fualtype
-          <Field type="radio" name="gendar" value="Electric" />
+          <Field type="radio" name="fualtype" value="Electric" />
           Electric 
-          <Field type="radio" name="gendar" value="Disel"/>
+          <Field type="radio" name="fualtype" value="Disel"/>
           Disel <br/><br/>
 
           <input type='submit' value='Save'/>
