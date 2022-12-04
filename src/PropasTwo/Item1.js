@@ -14,6 +14,7 @@ export default function Item1(propas) {
             
              <button onClick={()=>{propas.remove(index)}} className="btn btn-dark m-1">delete</button>
               <button onClick={()=>{propas.add(index)}}  className="btn btn-dark">Edit</button>
+             
 
               </div>)
 

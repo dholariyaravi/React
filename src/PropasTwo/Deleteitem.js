@@ -14,15 +14,14 @@ export default function Deleteitem() {
         Addres:" ",
      });
      const Mydelete = (index) => {
-      let mydata = [...data];
-      mydata.splice(index,1);
-      setdata(mydata);
+        let mydata = [...data];
+        mydata.splice(index,1);
+        setdata(mydata);
    };
 
     const addvalue = (index) => {
-      
-    let mydata = data[index];
-    setitem(mydata) ;
+      let mydata = data[index];
+      setitem(mydata) ;
    }
 
      const hendal = (e) => {
@@ -55,10 +54,10 @@ export default function Deleteitem() {
             <input type="text" name="Cnuber" className="coll-11" value={item.Cnuber} onChange={hendal}/><br/>
 
             <label>email</label>
-            <input type="text" name="email" className="coll-11"  onChange={hendal}/><br/>
+            <input type="text" name="email" className="coll-11" value={item.email}   onChange={hendal}/><br/>
 
             <label>Addres</label>
-            <input type="text" name="Addres" className="coll-11" onChange={hendal}/><br/><br/>
+            <input type="text" name="Addres" className="coll-11" value={item.Addres} onChange={hendal}/><br/><br/>
 
             <input type='submit' className='btn btn-dark' value="Save"/><br/>
 

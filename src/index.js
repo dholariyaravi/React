@@ -2,15 +2,10 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom/client';
 import "bootstrap/dist/css/bootstrap.css";
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 import reportWebVitals from './reportWebVitals';
-
-
-// import './Practice/Styles.css'; 
-// import './Practice/Data12.css';
-// import'./Practice/Preec.css';
-// import "./Practice/CSS/Jsxdata.css";
-// import "./Practice/CSS/From2.css";
-
 
 import Use from './Practice/Use';
 import Fullname from './Practice/Fullname';
@@ -54,9 +49,12 @@ import Classapi from './Class/Classapi';
 import Form11 from './Class/Form11';
 import Fomr12 from './Class/Form12';
 
+import Formtest from './Testtt/Formtest';
+import Datapass1 from './Testtt/Datapass1';
 
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import Task33 from './Task/Task33';
+
+
 
 
 
@@ -69,6 +67,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render( 
   <React.StrictMode>
+    <ToastContainer/>
      {/* <App /> */}
     
 
@@ -82,8 +81,8 @@ root.render(
     {/* <Exam/> */}
   {/* <JsxData/> */}
   {/* <Prectis/> */}
-  {/* <MYcowiddata/> */}
-  {/* <Axiosdata/> */}
+  {/* <MYcowiddata/> */} 
+  {/*  <Axiosdata/> */}
   {/* <Myform/>  */}
   {/* <FromData2/> */}
   {/* <LocalStoreg/> */}
@@ -91,10 +90,10 @@ root.render(
   {/* <Dataaxios/> */}
   {/* <From123/> */}
   {/* < Data432/> */}
-  {/* <Api/> */}
-  {/* <Api1/> */}
-  {/* <Api2/> */}
-  {/* <Api3/> */}
+   {/* <Api/>  */}
+   {/* <Api1/> */}
+   {/* <Api2/>  */}
+   {/* <Api3/> */}
    {/* <From444/> */} 
    {/* <From222/> */}
    {/* <Fromlo124/> */}
@@ -105,14 +104,18 @@ root.render(
    {/* <Pro12/> */}
    {/* <Prop1/> */}
    {/* <Fromtest99/> */}
-   {/* <Item/> */}
+      {/* <Item/> */}
    {/* <Deleteitem/> */}
    {/* <Grid1/> */}
    {/* <Grid2img/> */}
    {/* <Classapi/> */}
-    <Fomr12/>
- <ToastContainer />
-    <Form11/>
+    {/* <Fomr12/>  */}
+    {/* <Form11/> */}
+
+
+  {/* <Formtest/>
+  <Datapass1/> */}
+  <Task33/>
    
    
    

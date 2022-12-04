@@ -41,7 +41,7 @@ export default function From123() {
 
   return (
     <div>
-        <from onSubmit={Chenj} >
+        <form onSubmit={Chenj} >
         <input type='text'name='fristname' onChange={Headr} />
         <input type='text'name='lastname' onChange={Headr} />
         <input type='text'name='city' onChange={Headr} />
@@ -63,7 +63,7 @@ export default function From123() {
         <br/>
         <button type='submit' onClick={Chenj}>click me</button>
 
-     </from>
+     </form>
     </div>
   )
 }

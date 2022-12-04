@@ -1,11 +1,10 @@
-import React from 'react'
+import React from 'react';
 
 
  function Propas123(data) {
   return (
     
     <div className="col-sm-3">
-
 
       <div class="card" style={{width: "310px", display: 'flex'}}>
       <p class="id">{data.recod.id}</p>

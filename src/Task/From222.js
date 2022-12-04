@@ -27,8 +27,9 @@ export default function From222() {
     ];
 
     const handal = (e) => {
-        console.log(e)
+   
         setdata({...data , [e.target.name] : e.target.value})
+        console.log(e)
     }
 
     const handalsubmit = (e) => { 
