@@ -53,6 +53,8 @@ import Formtest from './Testtt/Formtest';
 import Datapass1 from './Testtt/Datapass1';
 
 import Task33 from './Task/Task33';
+import Form111 from './Task/Form111';
+import Mymate from './material/Mymate';
 
 
 
@@ -115,7 +117,9 @@ root.render(
 
   {/* <Formtest/>
   <Datapass1/> */}
-  <Task33/>
+  {/* <Task33/> */}
+  {/* <Form111/> */}
+  <Mymate/>
    
    
    

@@ -26,6 +26,6 @@ export default function Task33() {
                 )
             })}
         </table>
-    </div>
+    </div> 
   )
 }

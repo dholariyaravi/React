@@ -2,10 +2,7 @@ import React from 'react';
 
 
 export default function Task4(data) {
-    <style>
-       
-        
-    </style>
+   
   return (
     <div>
        
