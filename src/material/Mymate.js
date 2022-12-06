@@ -29,16 +29,17 @@ import TextField from '@mui/material/TextField';
     <div>
         <form onSubmit={mysubmit}>
         
-         <TextField  label="fristName" variant="outlined" name="fristName" onChange={hedal}/><br/>
-         <TextField  label="Lastname" variant="filled" name="Lastname" onChange={hedal} /> <br/>
-          <TextField  label="Email" variant="filled" name="Email" onChange={hedal} /> <br/><br/>
-        <TextField  label="MoNubar" placeholder="Placeholder" name="MoNubar" multiline onChange={hedal}/> <br/><br/>
+         <TextField  label="fristName" variant="outlined" className='coll-11' name="fristName" onChange={hedal}/><br/><br/>
+         <TextField  label="Lastname" variant="filled" className='coll-11' name="Lastname" onChange={hedal} /> <br/><br/>
+          <TextField  label="Email" variant="filled" className='coll-11' name="Email" onChange={hedal} /> <br/><br/>
+        <TextField  label="MoNubar" placeholder="Placeholder" className='coll-11' name="MoNubar" multiline onChange={hedal}/> <br/><br/>
   
        <TextField
      
        select
        name="city"
-
+       label="city"
+       
        onChange={hedal} 
        SelectProps={{
         native: true,
@@ -52,7 +53,7 @@ import TextField from '@mui/material/TextField';
         
         </TextField><br/><br/>
      
-        <input type='submit' value='Save' className='btn'/>
+        <input type='submit' value='Save' className='btn btn-dark'/>
 
         </form>
         
