@@ -8,4 +8,4 @@ import reactSelect from 'react-select'
   )
 };
 
-export default (Memo2)
+export default React.memo(Memo2)
