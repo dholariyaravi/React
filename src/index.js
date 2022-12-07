@@ -56,6 +56,7 @@ import Task33 from './Task/Task33';
 import Form111 from './Task/Form111';
 import Mymate from './material/Mymate';
 import Memo1 from './Memo/Memo1';
+import Memo22 from './Memo/Memo22';
 
 
 
@@ -122,6 +123,7 @@ root.render(
   {/* <Form111/> */}
   {/* <Mymate/> */}
   <Memo1/>
+  <Memo22 text='sgdhdhsd shgdsdjsdsdjdjsbdsjsjdhsdsbdhsjn ewhdsjdnsdnjddnjddn'/>
    
    
    

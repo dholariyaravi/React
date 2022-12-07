@@ -1,10 +1,14 @@
 import React from 'react'
 import reactSelect from 'react-select'
 
- function Memo2(data) {
-    console.log( "hdf",data)
+ function Memo2(data,index) { 
+      
+    console.log( "hdf",data) 
   return (
-    <div>Memo2</div>
+   
+    <div>
+      <button onClick={()=>{data.remove(index)}} className="btn btn-dark m-1">delete</button>
+    </div>
   )
 };
 
