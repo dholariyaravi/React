@@ -123,7 +123,7 @@ root.render(
   {/* <Form111/> */}
   {/* <Mymate/> */}
   <Memo1/>
-  <Memo22 text='sgdhdhsd shgdsdjsdsdjdjsbdsjsjdhsdsbdhsjn ewhdsjdnsdnjddnjddn'/>
+  <Memo22 text='my name is ravi dhlariya i am 20 year old i am pursuing Bcom from ms univarshiti'/>
    
    
    
