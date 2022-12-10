@@ -56,12 +56,13 @@ import Task33 from './Task/Task33';
 import Form111 from './Task/Form111';
 import Mymate from './material/Mymate';
 import Memo1 from './Memo/Memo1';
-import Memo22 from './Memo/Memo22';
+import Usememo from './Memo/Usememo';
 
 
 
-
-
+import {Provider} from  'react-redux';
+import store from './Total/Store/Store';
+import Counter from './Total/Counter';
 
 
 
@@ -74,7 +75,6 @@ root.render(
     <ToastContainer/>
      {/* <App /> */}
     
-
    {/* <Use/> */}
    {/* <Fullname/> */}
     {/* <Test/>  */}
@@ -122,13 +122,16 @@ root.render(
   {/* <Task33/> */}
   {/* <Form111/> */}
   {/* <Mymate/> */}
-  <Memo1/>
-  <Memo22 text='my name is ravi dhlariya i am 20 year old i am pursuing Bcom from ms univarshiti'/>
-   
-   
-   
+  {/* <Memo1/> */}
+  < Usememo text='my name is ravi dhlariya i am 20 year 
+                  old i am pursuing Bcom from ms univarshiti'/>
+  
+   <Provider store={store}>
+         <Counter/>
+  </Provider>
 
-
+   
+   
   </React.StrictMode>
 
 );

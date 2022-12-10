@@ -25,7 +25,6 @@ export default function Memo1() {
     },[item])
      
   
-
   return (
     <div>
         <input type='text' onChange={myhendal} />
