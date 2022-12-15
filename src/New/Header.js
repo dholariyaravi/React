@@ -6,8 +6,8 @@ export default function Header() {
   return (
     <div>
       
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
+      <nav class="navbar navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand " href="#">Navbar</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -25,13 +25,15 @@ export default function Header() {
       <li class="nav-item">
       <Link class="nav-link" to="/Grid2img">Grid2img</Link>
       </li>
+
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Dropdown
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <Link class="nav-link" to="/Fromsi1">Fromsi1</Link>
-          <a class="dropdown-item" href="#">Another action</a>
+        <div class="dropdown-menu " aria-labelledby="navbarDropdown ">
+        <Link class="dropdown-item " to="/Fromsi1">Fromsi1</Link>
+        <Link class="dropdown-item " to="/Fromsi1">Fromsi1</Link>
+         
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Something else here</a>
         </div>
@@ -40,10 +42,14 @@ export default function Header() {
       <Link class="nav-link" to="/Fromsi1">Fromsi1</Link>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
-      {/* <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> */}
-    </form>
+
+    <nav class="navbar navbar navbar-dark bg-dark ">
+    <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
+    {/* <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> */}
+  </form>
+</nav>
+   
   </div>
 </nav>
     </div>

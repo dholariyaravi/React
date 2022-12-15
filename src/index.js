@@ -73,6 +73,9 @@ import Header from './New/Header';
 import { BrowserRouter, Route,Routes } from 'react-router-dom';
 import App from './App';
 import Error from './New/Error';
+import Footer from './New/Footer';
+
+
 
 
 
@@ -147,11 +150,12 @@ root.render(
   {/* <Loginsw2/> */}
   {/* <Useref1/> */}
   {/* <Au111/> */}
+
+ 
+ 
   
-  
-  
-  <BrowserRouter>
-  
+ 
+   <BrowserRouter>
   <Header/>
 
   <Routes>
@@ -160,9 +164,9 @@ root.render(
           <Route path="/Grid2img" element={<Grid2img />} />
           <Route path="/Fromsi1" element={<Fromsi1 />} />
           <Route path="*" element={<Error/>} />
-          
-      
+              
   </Routes>
+  
   </BrowserRouter>
   
  
