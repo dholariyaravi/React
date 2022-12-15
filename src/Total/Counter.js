@@ -28,5 +28,5 @@ export default function Counter() {
    <button onClick={decrementn1}>------</button>    
    <button onClick={modual1}>****</button>      
     </div>
-  )
+  );
 }

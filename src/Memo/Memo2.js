@@ -5,7 +5,6 @@ import reactSelect from 'react-select'
       
     console.log( "hdf",data) 
   return (
-   
     <div>
       <button onClick={()=>{data.remove(index)}} className="btn btn-dark m-1">delete</button>
     </div>

@@ -4,7 +4,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>hello react</h1>
+      <br></br>
+      <h1 class='bg-dark m-5'>hello react</h1>
      
     </div>
   );

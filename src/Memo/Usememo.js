@@ -13,7 +13,7 @@ export default function Usememo(props) {
   return (
     <div>
       <p onClick={ () => {setdata1 (!data1)}}>
-        {data1? props.text:mydata}
+        {data1? props.text: mydata}
       </p>
     </div>
   )

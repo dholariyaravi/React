@@ -7,6 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 import reportWebVitals from './reportWebVitals';
 
+
 import Use from './Practice/Use';
 import Fullname from './Practice/Fullname';
 import Test from './Practice/Test';
@@ -63,6 +64,19 @@ import Usememo from './Memo/Usememo';
 import {Provider} from  'react-redux';
 import store from './Total/Store/Store';
 import Counter from './Total/Counter';
+import Formsw1 from './Login/Formsw1';
+import Loginsw2 from './Login/Loginsw2';
+import Golbal11 from './Login/Golbal11'
+import Useref1 from './Useref/Useref1';
+import Au111 from './Useref/Au111';
+import Header from './New/Header';
+import { BrowserRouter, Route,Routes } from 'react-router-dom';
+import App from './App';
+import Error from './New/Error';
+
+
+
+
 
 
 
@@ -113,8 +127,8 @@ root.render(
    {/* <Grid1/> */}
    {/* <Grid2img/> */}
    {/* <Classapi/> */}
-    {/* <Fomr12/>  */}
-    {/* <Form11/> */}
+    {/* <Fomr12/> 
+    <Form11/> */}
 
 
   {/* <Formtest/>
@@ -123,12 +137,36 @@ root.render(
   {/* <Form111/> */}
   {/* <Mymate/> */}
   {/* <Memo1/> */}
-  < Usememo text='my name is ravi dhlariya i am 20 year 
-                  old i am pursuing Bcom from ms univarshiti'/>
+  {/* < Usememo text='my name is ravi dhlariya i am 20 year old i am pursuing Bcom from ms univarshiti'/> */}
   
-   <Provider store={store}>
+   {/* <Provider store={store}>
          <Counter/>
-  </Provider>
+  </Provider> */}
+
+  {/* <Formsw1/> */}
+  {/* <Loginsw2/> */}
+  {/* <Useref1/> */}
+  {/* <Au111/> */}
+  
+  
+  
+  <BrowserRouter>
+  
+  <Header/>
+
+  <Routes>
+         <Route path="/" element={<App/>} />
+          <Route path="/Form11" element={< Form11/>} />
+          <Route path="/Grid2img" element={<Grid2img />} />
+          <Route path="/Fromsi1" element={<Fromsi1 />} />
+          <Route path="*" element={<Error/>} />
+          
+      
+  </Routes>
+  </BrowserRouter>
+  
+ 
+
 
    
    

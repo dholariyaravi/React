@@ -33,7 +33,6 @@ export default function Grid1() {
         rowData={row} 
         columnDefs={column}  
         >
-
         </AgGridReact>
         
 
