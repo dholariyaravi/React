@@ -1,13 +1,21 @@
 // import logo from './logo.svg';
 import './App.css';
+import Child1 from './Leval2oll/useContext1/Child1';
+import { useState } from 'react'; 
+import Header from './Leval2oll/useContext1/Header';
+import Contex from './Leval2oll/useContext1/Contex';
 
 function App() {
+  const [lan, setlan] = useState('en');
+
   return (
-    <div className="App">
-      <br></br>
-      <h1 class='bg-dark m-5'>hello react</h1>
-     
-    </div>
+   <div>
+    {/* <Contex.Provider value={{lan,setlan}}>
+   
+      <Header/>
+      <Child1/>
+    </Contex.Provider> */}
+   </div>
   );
 }
 

@@ -74,10 +74,12 @@ import { BrowserRouter, Route,Routes } from 'react-router-dom';
 import App from './App';
 import Error from './New/Error';
 import Footer from './New/Footer';
-
-
-
-
+import UseEfect1 from './Leval2oll/UseEfect1';
+import DataUp from './Leval2oll/Counter';
+import Reducer from './Leval2oll/Reducer';
+import Css from './Class/Css';
+import Html from './Class/Html11';
+import Html11 from './Class/Html11';
 
 
 
@@ -90,7 +92,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render( 
   <React.StrictMode>
     <ToastContainer/>
-     {/* <App /> */}
+     <App/>
     
    {/* <Use/> */}
    {/* <Fullname/> */}
@@ -151,28 +153,35 @@ root.render(
   {/* <Useref1/> */}
   {/* <Au111/> */}
 
- 
- 
-  
- 
-   <BrowserRouter>
-  <Header/>
+                    {/* leval 2222222222222  ====>>>> */}
+  {/* <UseEfect1/>
+  <DataUp /> */}
+  {/* <Reducer/> */}
 
+ 
+ 
+    <BrowserRouter>
+  <Header/>
+  
   <Routes>
          <Route path="/" element={<App/>} />
           <Route path="/Form11" element={< Form11/>} />
           <Route path="/Grid2img" element={<Grid2img />} />
           <Route path="/Fromsi1" element={<Fromsi1 />} />
-          <Route path="*" element={<Error/>} />
-              
+
+       <Route path="/Css" element={<Css />}>
+          <Route path="Html11" element={<Html11/>} />
+
+        </Route>
+          <Route path="*" element={<Error/>} />                 
   </Routes>
-  
+
+  <Footer/>
   </BrowserRouter>
-  
- 
-
-
    
+ 
+  
+
    
   </React.StrictMode>
 

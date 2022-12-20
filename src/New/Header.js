@@ -41,6 +41,11 @@ export default function Header() {
       <li class="nav-item">
       <Link class="nav-link" to="/Fromsi1">Fromsi1</Link>
       </li>
+
+      <li class="nav-item">
+      <Link class="nav-link" to="/Css">Css</Link>
+      </li>
+
     </ul>
 
     <nav class="navbar navbar navbar-dark bg-dark ">
