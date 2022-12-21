@@ -33,6 +33,7 @@ section .section-title {
     padding-bottom: 6px;
     margin-bottom: 20px;
     color:#ffffff;
+   
     
 }
 #footer a {
@@ -85,6 +86,20 @@ section .section-title {
 }
 #footer ul.quick-links li:hover a i {
     font-weight: 700;
+}
+.calls1{
+  
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+
+   background-color: 
+      linear-gradient(
+        rgba(240, 212, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)
+      ),
+      /* image to overlay */
+     
 }
 
 @media (max-width:767px){

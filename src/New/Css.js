@@ -8,9 +8,11 @@ export default function Css() {
     <div>Css
             <a href="httphttps://www.w3schools.com/react/default.asps://www.w3schools.com/">Visit W3Schools!</a>
             <br/>
-            this is data<br/>
-            this is data
-                 <Link to='Html11'>Html11</Link>
+              <br/>
+         <h3> Hello CSS</h3>
+         <Link to='Html11'></Link>
+         <Link to='Javascript'></Link>
+
              <Outlet/>
              this is data
     </div>

@@ -77,11 +77,9 @@ import Footer from './New/Footer';
 import UseEfect1 from './Leval2oll/UseEfect1';
 import DataUp from './Leval2oll/Counter';
 import Reducer from './Leval2oll/Reducer';
-import Css from './Class/Css';
-import Html from './Class/Html11';
-import Html11 from './Class/Html11';
-
-
+import Css from './New/Css';
+import Html11 from './New/Html11';
+import Javascript from './New/Javascript';
 
 
 
@@ -92,7 +90,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render( 
   <React.StrictMode>
     <ToastContainer/>
-     <App/>
+     {/* <App/> */}
     
    {/* <Use/> */}
    {/* <Fullname/> */}
@@ -159,7 +157,7 @@ root.render(
   {/* <Reducer/> */}
 
  
- 
+
     <BrowserRouter>
   <Header/>
   
@@ -171,13 +169,14 @@ root.render(
 
        <Route path="/Css" element={<Css />}>
           <Route path="Html11" element={<Html11/>} />
-
+          <Route path="Javascript" element={<Javascript/>} />
+        
         </Route>
           <Route path="*" element={<Error/>} />                 
   </Routes>
 
-  <Footer/>
-  </BrowserRouter>
+  <Footer/> 
+  </BrowserRouter> 
    
  
   
