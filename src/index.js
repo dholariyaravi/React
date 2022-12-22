@@ -80,6 +80,7 @@ import Reducer from './Leval2oll/Reducer';
 import Css from './New/Css';
 import Html11 from './New/Html11';
 import Javascript from './New/Javascript';
+import RequireAuth from './Login/RequireAuth';
 
 
 
@@ -151,22 +152,22 @@ root.render(
   {/* <Useref1/> */}
   {/* <Au111/> */}
 
-                    {/* leval 2222222222222  ====>>>> */}
+                 {/* leval 2222222222222  ====>>>> */}
   {/* <UseEfect1/>
   <DataUp /> */}
   {/* <Reducer/> */}
 
  
 
-    <BrowserRouter>
-  <Header/>
+     <BrowserRouter>
+  {/* <Header/> */}
   
   <Routes>
-         <Route path="/" element={<App/>} />
-          <Route path="/Form11" element={< Form11/>} />
+         <Route path="/" element={<Loginsw2/>} />
+          <Route path="/Formsw1" element={<RequireAuth><Formsw1/></RequireAuth>} />
           <Route path="/Grid2img" element={<Grid2img />} />
-          <Route path="/Fromsi1" element={<Fromsi1 />} />
-
+          {/* <Route path="/Fromsi1" element={<Fromsi1 />} /> */}
+        
        <Route path="/Css" element={<Css />}>
           <Route path="Html11" element={<Html11/>} />
           <Route path="Javascript" element={<Javascript/>} />
@@ -175,12 +176,11 @@ root.render(
           <Route path="*" element={<Error/>} />                 
   </Routes>
 
-  <Footer/> 
-  </BrowserRouter> 
+  {/* <Footer/>  */}
+  </BrowserRouter>  
    
  
   
-
    
   </React.StrictMode>
 

@@ -6,6 +6,7 @@ import { AgGridReact } from 'ag-grid-react';
 import axios from 'axios'
 import { Field, Formik,Form } from 'formik'
 import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify'
 import autho1 from './Custon';
 // import autho1 from './interceptors  ';
@@ -13,6 +14,8 @@ import autho1 from './Custon';
 
 
 export default function Loginsw2() {
+
+  const mynav = useNavigate();
 
   const [column,setcolumn] = useState ([
     {field:"title",filter: true},
@@ -33,6 +36,7 @@ export default function Loginsw2() {
        });
        
    }
+   
 
   return (
     <div>
@@ -40,20 +44,25 @@ export default function Loginsw2() {
               email:"",
               password:"",
         }} 
-
+               
+         
           onSubmit= { (e) => {
             console.log(e)
             
             axios.post('http://localhost:4000/accounts/authenticate',e)
             .then(p => {
                 console.log(p) 
-                localStorage.setItem("user1",JSON.stringify(p.data))   
+                localStorage.setItem("user1",JSON.stringify(p.data)); 
+
+                mynav ('/Formsw1');
+
             toast('login Successfully')
             }).catch(
                 p => {
                    toast('falid')
                    console.log(p)
              }); 
+             
           }}
           >
 

@@ -9,6 +9,8 @@ section .section-title {
     color: #007b5e;
     margin-bottom: 50px;
     text-transform: uppercase;
+    background-color: rgb(160, 90, 39);
+  
 }
 #footer  {
  
