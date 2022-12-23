@@ -81,6 +81,9 @@ import Css from './New/Css';
 import Html11 from './New/Html11';
 import Javascript from './New/Javascript';
 import RequireAuth from './Login/RequireAuth';
+import Header11 from './Login/Header11';
+import Productlist from './Login/Productlist';
+import Files1 from './Class/Files1';
 
 
 
@@ -152,22 +155,23 @@ root.render(
   {/* <Useref1/> */}
   {/* <Au111/> */}
 
-                 {/* leval 2222222222222  ====>>>> */}
+         {/* leval 2222222222222  ====>>>> */}
   {/* <UseEfect1/>
   <DataUp /> */}
   {/* <Reducer/> */}
+  <Files1/>
 
- 
 
-     <BrowserRouter>
-  {/* <Header/> */}
+
+     {/* <BrowserRouter> 
   
+   <Header/>
   <Routes>
          <Route path="/" element={<Loginsw2/>} />
-          <Route path="/Formsw1" element={<RequireAuth><Formsw1/></RequireAuth>} />
+         <Route path="/register" element={<Formsw1/>} />
+          <Route path="/Formsw1" element={<RequireAuth><Productlist/></RequireAuth>} />
           <Route path="/Grid2img" element={<Grid2img />} />
-          {/* <Route path="/Fromsi1" element={<Fromsi1 />} /> */}
-        
+          
        <Route path="/Css" element={<Css />}>
           <Route path="Html11" element={<Html11/>} />
           <Route path="Javascript" element={<Javascript/>} />
@@ -175,10 +179,9 @@ root.render(
         </Route>
           <Route path="*" element={<Error/>} />                 
   </Routes>
-
-  {/* <Footer/>  */}
-  </BrowserRouter>  
-   
+   <Footer/>
+  </BrowserRouter>   */}
+  
  
   
    

@@ -6,7 +6,7 @@ import { AgGridReact } from 'ag-grid-react';
 import axios from 'axios'
 import { Field, Formik,Form } from 'formik'
 import React, { useState } from 'react'
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify'
 import autho1 from './Custon';
 // import autho1 from './interceptors  ';
@@ -78,13 +78,15 @@ export default function Loginsw2() {
 
              </Form>
              
-        </Formik>
-        <button type='submit' onClick={output1} className="btn">fetch</button> <br/>
+        </Formik> <br/>
+        <Link className='btn' to={'/register'}>Register</Link>
 
-        <div className="ag-theme-alpine" style={{width: 500, height: 500}}>
+        {/* <button type='submit' onClick={output1} className="btn">fetch</button> <br/> */}
+
+        {/* <div className="ag-theme-alpine" style={{width: 500, height: 500}}>
         <AgGridReact rowData={row} columnDefs={column} ></AgGridReact>
         </div>
-        
+         */}
     </div>
   );
 };

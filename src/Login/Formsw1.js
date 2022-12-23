@@ -1,6 +1,7 @@
 import axios from 'axios'
 import { Field, Form, Formik } from 'formik'
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { toast } from 'react-toastify'
 
 export default function Formsw1() {
@@ -56,6 +57,7 @@ export default function Formsw1() {
             </Form>
 
         </Formik><br/>
+        <Link className='btn' to={'/'}>Login</Link>
     </div>
   )
 }
