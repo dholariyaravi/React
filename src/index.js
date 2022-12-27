@@ -83,7 +83,14 @@ import Javascript from './New/Javascript';
 import RequireAuth from './Login/RequireAuth';
 import Header11 from './Login/Header11';
 import Productlist from './Login/Productlist';
-import Files1 from './Class/Files1';
+import Files1 from './Leval2oll/Files1';
+import InquiryForm from './Testtt/InquiryForm';
+import {ErrorBoundary} from 'react-error-boundary'
+import BuggyCounter from './Leval2oll/Errorcalls/BuggyCounter ';
+import Appihook from './Leval2oll/UseHook/Appihook';
+import { ErrorFallback } from './Leval2oll/Errorcalls/ErrorFallback';
+
+
 
 
 
@@ -159,7 +166,20 @@ root.render(
   {/* <UseEfect1/>
   <DataUp /> */}
   {/* <Reducer/> */}
-  <Files1/>
+  {/* <Files1/> */}
+  {/* <InquiryForm/> */}
+
+
+
+  <ErrorBoundary
+
+    FallbackComponent={ErrorFallback}
+  >
+   <BuggyCounter/>
+   <Appihook/>
+    
+  </ErrorBoundary>
+
 
 
 
@@ -180,8 +200,8 @@ root.render(
           <Route path="*" element={<Error/>} />                 
   </Routes>
    <Footer/>
-  </BrowserRouter>   */}
-  
+  </BrowserRouter>  
+   */}
  
   
    

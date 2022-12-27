@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import'./CSS/From2.css';
+
 
 
 export default function FromData2 () {

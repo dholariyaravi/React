@@ -7,17 +7,18 @@
     align-items: center;
     display: flex;
     justify-content: center;
+
   } */
 
   .from122 {
     
-    background-color: rgb(175, 198, 198);
+    background-color: rgb(222, 240, 240);
     border-radius: 20px;
     text-align: center;
     box-sizing: border-box;
     height: auto;
     padding: 80px;
-    width: 520px;
+    width: 620px;
     display: block;
   }
   .text{
@@ -25,7 +26,7 @@
     display: block;
   }
   .coll-11 {
-    width: 360px;
+    width: 460px;
     height: auto;
     background-color: azure;
 

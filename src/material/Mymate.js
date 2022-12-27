@@ -36,9 +36,7 @@ import TextField from '@mui/material/TextField';
   
        <TextField
      
-       select
-       name="city"
-       label="city"
+       select name="city"  label="city"
        
        onChange={hedal} 
        SelectProps={{

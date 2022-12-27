@@ -8,7 +8,7 @@ export default function Files1() {
 
 
     const myhadal = (e) => {
-        setdata(e.target.files[0]);
+        setdata(e.target.files[0]);             
 
     }
     const myclick = (e) => {
@@ -51,8 +51,7 @@ export default function Files1() {
             })}
            
         </table>
-        
-        
+         
     </div>
   )
 }
