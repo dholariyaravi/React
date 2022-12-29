@@ -18,7 +18,7 @@ export default class BuggyCounter  extends Component {
 
     return (
       <div>
-        <h1 onClick={this.handleClick}>{this.state.counter}</h1>
+        <h2 onClick={this.handleClick}>{this.state.counter}</h2>
          </div>
     )
   }

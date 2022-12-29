@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, lazy, Suspense } from 'react';
 import ReactDOM from 'react-dom/client';
 import "bootstrap/dist/css/bootstrap.css";
 
@@ -45,7 +45,7 @@ import Fromtest99 from './Fromsipal.js/Fromtest99';
 import Item from './PropasTwo/Item';
 import Deleteitem from './PropasTwo/Deleteitem';
 import Grid1 from './Grid/Grid1';
-import Grid2img from './Grid/Grid2img';
+// import Grid2img from './Grid/Grid2img';
 import Classapi from './Class/Classapi';
 import Form11 from './Class/Form11';
 import Fomr12 from './Class/Form12';
@@ -78,6 +78,7 @@ import UseEfect1 from './Leval2oll/UseEfect1';
 import DataUp from './Leval2oll/Counter';
 import Reducer from './Leval2oll/Reducer';
 import Css from './New/Css';
+// import Colll from './Colll';
 import Html11 from './New/Html11';
 import Javascript from './New/Javascript';
 import RequireAuth from './Login/RequireAuth';
@@ -89,6 +90,9 @@ import {ErrorBoundary} from 'react-error-boundary'
 import BuggyCounter from './Leval2oll/Errorcalls/BuggyCounter ';
 import Appihook from './Leval2oll/UseHook/Appihook';
 import { ErrorFallback } from './Leval2oll/Errorcalls/ErrorFallback';
+import MyHoc from './Leval2oll/HOC11/HOC';
+
+
 
 
 
@@ -98,6 +102,15 @@ import { ErrorFallback } from './Leval2oll/Errorcalls/ErrorFallback';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+// let ColllHOC1 = MyHoc(Colll)
+// let CssHOC =  MyHoc(Css)
+
+
+const ColllLazy = React.lazy (() => import('./Colll'));
+const Grid2imglazy = React.lazy  (() => import('./Grid/Grid2img'));
+
+
 root.render( 
   <React.StrictMode>
     <ToastContainer/>
@@ -171,37 +184,40 @@ root.render(
 
 
 
-  <ErrorBoundary
-
+  {/* <ErrorBoundary
     FallbackComponent={ErrorFallback}
   >
    <BuggyCounter/>
    <Appihook/>
     
-  </ErrorBoundary>
+  </ErrorBoundary> */}
 
+ 
 
+  <BrowserRouter> 
+   <Suspense fallback={<div>Loading...</div>}>
 
-
-     {/* <BrowserRouter> 
-  
    <Header/>
   <Routes>
-         <Route path="/" element={<Loginsw2/>} />
+        <Route path="/" element={<ColllLazy/>} />
+         <Route path="/Loginsw2" element={<Loginsw2/>} />
          <Route path="/register" element={<Formsw1/>} />
           <Route path="/Formsw1" element={<RequireAuth><Productlist/></RequireAuth>} />
-          <Route path="/Grid2img" element={<Grid2img />} />
+          <Route path="/Grid2img" element={<Grid2imglazy/>} />
           
-       <Route path="/Css" element={<Css />}>
+        {/* <Route path="/Css" element={<Css/>}>
           <Route path="Html11" element={<Html11/>} />
           <Route path="Javascript" element={<Javascript/>} />
-        
-        </Route>
+        </Route> */}
+
           <Route path="*" element={<Error/>} />                 
   </Routes>
-   <Footer/>
+  
+   {/* <Footer/> */}
+  
+  </Suspense>
   </BrowserRouter>  
-   */}
+   
  
   
    
