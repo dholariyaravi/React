@@ -1,5 +1,11 @@
-import {createStore} from 'redux';
-import Countarred from '../Reducer/Countarred';
-const store = createStore (Countarred);
+import {createStore , applyMiddleware} from 'redux';
+import thunk from 'redux-thunk';
+import Rootreducer from '../Reducer/Rootreducer';
+
+const Middleware = [thunk];
+
+const store = createStore (Rootreducer, applyMiddleware(...Middleware));
+
+
 
 export default store ;

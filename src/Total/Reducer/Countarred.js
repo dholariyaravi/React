@@ -9,10 +9,11 @@ export default (state = 0, { type, payload }) => {
     case "Decrementn":
     return  state -1;
 
-    case "Modual":
-    return  state *2;
+    case "MInuscount":
+    return state - payload;
 
   default:
     return state
   }
 }
+

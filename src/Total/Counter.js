@@ -1,12 +1,14 @@
 import React from 'react'
 import { useDispatch,useSelector } from 'react-redux'
-import { Increment } from './action';
-import { Decrementn } from './action';  
-import { Modual } from './action'; 
+
+import { AsncMinus, Increment } from './action/Action';
+import { Decrementn } from './action/Action';  
+ 
+
 
 export default function Counter() {
 
-    const data1 = useSelector(p=>p);
+    const data1 = useSelector(p=> p.counter1);
 
     const mycoun =useDispatch();
 
@@ -18,15 +20,21 @@ export default function Counter() {
         mycoun(Decrementn()) 
      }
 
-     const modual1 = () => {
-        mycoun(Modual()) 
+     const decrementcounter = () =>{
+        mycoun(AsncMinus(5))
      }
+
+     
     
   return (
-    <div>{data1}
+    <div>
+      {data1}
    <button onClick={increment1}>+++++</button>      
    <button onClick={decrementn1}>------</button>    
-   <button onClick={modual1}>****</button>      
+   
+   <button onClick={decrementcounter}>counter--</button>     
+
+  
     </div>
   );
 }

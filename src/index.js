@@ -62,7 +62,7 @@ import Usememo from './Memo/Usememo';
 
 
 import {Provider} from  'react-redux';
-import store from './Total/Store/Store';
+// import store from './Total/Store/Store';
 import Counter from './Total/Counter';
 import Formsw1 from './Login/Formsw1';
 import Loginsw2 from './Login/Loginsw2';
@@ -91,6 +91,8 @@ import BuggyCounter from './Leval2oll/Errorcalls/BuggyCounter ';
 import Appihook from './Leval2oll/UseHook/Appihook';
 import { ErrorFallback } from './Leval2oll/Errorcalls/ErrorFallback';
 import MyHoc from './Leval2oll/HOC11/HOC';
+import store from './Total/Store/Store';
+import UserList from './Total/UserList';
 
 
 
@@ -166,9 +168,10 @@ root.render(
   {/* <Memo1/> */}
   {/* < Usememo text='my name is ravi dhlariya i am 20 year old i am pursuing Bcom from ms univarshiti'/> */}
   
-   {/* <Provider store={store}>
-         <Counter/>
-  </Provider> */}
+   <Provider store={store}>
+       <Counter/>
+       <UserList/>
+  </Provider>
 
   {/* <Formsw1/> */}
   {/* <Loginsw2/> */}
@@ -193,7 +196,7 @@ root.render(
   </ErrorBoundary> */}
 
  
-
+{/* 
   <BrowserRouter> 
    <Suspense fallback={<div>Loading...</div>}>
 
@@ -205,20 +208,20 @@ root.render(
           <Route path="/Formsw1" element={<RequireAuth><Productlist/></RequireAuth>} />
           <Route path="/Grid2img" element={<Grid2imglazy/>} />
           
-        {/* <Route path="/Css" element={<Css/>}>
+        <Route path="/Css" element={<Css/>}>
           <Route path="Html11" element={<Html11/>} />
           <Route path="Javascript" element={<Javascript/>} />
-        </Route> */}
+        </Route>
 
           <Route path="*" element={<Error/>} />                 
   </Routes>
   
-   {/* <Footer/> */}
+   <Footer/>
   
   </Suspense>
   </BrowserRouter>  
    
- 
+  */}
   
    
   </React.StrictMode>
