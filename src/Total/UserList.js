@@ -16,6 +16,7 @@ import { getUserlist } from './action/Action';
     return (
         <div> 
             <table>
+                <tbody>
             {data?.map((val,index) => {
                 return(
                     <tr key={index}>
@@ -28,7 +29,7 @@ import { getUserlist } from './action/Action';
                     </tr>   
                 )    
             })}
-           
+           </tbody>
              </table>
         </div>  
     );

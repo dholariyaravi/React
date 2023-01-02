@@ -9,6 +9,9 @@ export default (state = 0, { type, payload }) => {
     case "Decrementn":
     return  state -1;
 
+     case "modual":
+      return  state *5;
+
     case "MInuscount":
     return state - payload;
 
