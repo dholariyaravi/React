@@ -1,4 +1,17 @@
-import { put, takeEvery, takeLatest, delay, all } from 'redux-saga/effects';
+import { put, takeEvery, takeLatest, delay } from 'redux-saga/effects';
+
+
+      // Increment....... 
+export function* inWorkdd()
+   {
+     yield delay (1000);
+     yield put ({ type : 'Increment' });
+   }
+export function* incrementWatcher11()
+   {
+     yield takeLatest('Increment11',inWorkdd)
+      
+    }
 
 
 export function* inWork1()
@@ -14,18 +27,7 @@ export function* incrementWatcher()
 }
 
 
-export function* inWorkdd()
-{
-    yield delay (1000);
-    yield put ({ type : 'Increment' });
-}
-export function* incrementWatcher11()
-{
-    yield takeEvery('Increment11',inWorkdd)
-
-}
-
-
+        // modual........ 
 export function* inwok111()
 {
     yield delay (1000);

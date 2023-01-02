@@ -94,6 +94,7 @@ import MyHoc from './Leval2oll/HOC11/HOC';
 import store from './Total/Store/Store';
 import UserList from './Total/UserList';
 import Countersaga1 from './Total/Countersaga1';
+import MyposT from './Total/MyposT';
 
 
 
@@ -172,7 +173,8 @@ root.render(
    <Provider store={store}>
        {/* <Counter/> */}
        {/* <UserList/> */}
-       <Countersaga1/>
+       {/* <Countersaga1/> */}
+       <MyposT/>
   </Provider>
 
   {/* <Formsw1/> */}
