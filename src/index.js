@@ -95,6 +95,9 @@ import store from './Total/Store/Store';
 import UserList from './Total/UserList';
 import Countersaga1 from './Total/Countersaga1';
 import MyposT from './Total/MyposT';
+import Myfunt1 from './Total/MyFount/Myfunt1';
+import MyfunR2 from './Total/MyFount/MyfunR2';
+import MyfunR3 from './Total/MyFount/MyfunR3';
 
 
 
@@ -174,7 +177,10 @@ root.render(
        {/* <Counter/> */}
        {/* <UserList/> */}
        {/* <Countersaga1/> */}
-       <MyposT/>
+       {/* <MyposT/> */}
+       {/* <Myfunt1/> */}
+       <MyfunR2/>
+       <MyfunR3/>
   </Provider>
 
   {/* <Formsw1/> */}
