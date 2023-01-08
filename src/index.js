@@ -100,6 +100,7 @@ import MyfunR2 from './Total/MyFount/MyfunR2';
 import MyfunR3 from './Total/MyFount/MyfunR3';
 import Component11 from './Reduser11/Componet/Compo1';
 import Store2 from './Reduser11/Store/Store2';
+import Posts from './Reduser11/Post/Posts';
 
 
 
@@ -187,7 +188,8 @@ root.render(
   </Provider>
 
   <Provider store={Store2}>
-    <Component11/>
+    {/* <Component11/> */}
+    <Posts/>
 
   </Provider>
 
