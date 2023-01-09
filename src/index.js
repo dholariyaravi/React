@@ -6,6 +6,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 import Use from './Practice/Use';
@@ -101,6 +102,7 @@ import MyfunR3 from './Total/MyFount/MyfunR3';
 import Component11 from './Reduser11/Componet/Compo1';
 import Store2 from './Reduser11/Store/Store2';
 import Posts from './Reduser11/Post/Posts';
+import Boostep from './Boostep';
 
 
 
@@ -177,7 +179,7 @@ root.render(
   {/* <Memo1/> */}
   {/* < Usememo text='my name is ravi dhlariya i am 20 year old i am pursuing Bcom from ms univarshiti'/> */}
   
-   <Provider store={store}>
+   {/* <Provider store={store}> */}
        {/* <Counter/> */}
        {/* <UserList/> */}
        {/* <Countersaga1/> */}
@@ -185,13 +187,14 @@ root.render(
        {/* <Myfunt1/> */}
        {/* <MyfunR2/>
        <MyfunR3/> */}
-  </Provider>
+       
+  {/* </Provider>
 
   <Provider store={Store2}>
-    {/* <Component11/> */}
+    <Component11/>
     <Posts/>
 
-  </Provider>
+  </Provider> */}
 
   {/* <Formsw1/> */}
   {/* <Loginsw2/> */}
@@ -204,6 +207,7 @@ root.render(
   {/* <Reducer/> */}
   {/* <Files1/> */}
   {/* <InquiryForm/> */}
+  <Boostep/>
 
 
 
