@@ -103,6 +103,7 @@ import Component11 from './Reduser11/Componet/Compo1';
 import Store2 from './Reduser11/Store/Store2';
 import Posts from './Reduser11/Post/Posts';
 import Boostep from './Boostep';
+import Posts1 from './Reduser11/PostDemo2/DataPo';
 
 
 
@@ -186,15 +187,16 @@ root.render(
        {/* <MyposT/> */}
        {/* <Myfunt1/> */}
        {/* <MyfunR2/>
-       <MyfunR3/> */}
-       
-  {/* </Provider>
+       <MyfunR3/> */}   
+  {/* </Provider> */}
 
   <Provider store={Store2}>
-    <Component11/>
-    <Posts/>
+    {/* <Component11/> */}
+    {/* <Posts/> */}
 
-  </Provider> */}
+    <Posts1/>
+
+  </Provider>
 
   {/* <Formsw1/> */}
   {/* <Loginsw2/> */}
@@ -207,7 +209,7 @@ root.render(
   {/* <Reducer/> */}
   {/* <Files1/> */}
   {/* <InquiryForm/> */}
-  <Boostep/>
+  {/* <Boostep/> */}
 
 
 
