@@ -104,6 +104,7 @@ import Store2 from './Reduser11/Store/Store2';
 import Posts from './Reduser11/Post/Posts';
 import Boostep from './Boostep';
 import Posts1 from './Reduser11/PostDemo2/DataPo';
+import Calsscomp from './Leval2oll/class/Calsscomp';
 
 
 
@@ -194,7 +195,7 @@ root.render(
     {/* <Component11/> */}
     {/* <Posts/> */}
 
-    <Posts1/>
+    {/* <Posts1/> */}
 
   </Provider>
 
@@ -248,6 +249,8 @@ root.render(
   </BrowserRouter>  
    
   */}
+
+  <Calsscomp/>
   
    
   </React.StrictMode>

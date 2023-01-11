@@ -22,8 +22,7 @@ const Posts = ()=> {
             {list?.map((item)=>{
                 return(
                     <div>{item.id} {item.title}</div> 
-                )
-                
+                ) 
             })}
 
     </div>

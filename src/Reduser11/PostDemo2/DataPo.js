@@ -12,26 +12,20 @@ const Posts1= ()=> {
        dispatch(getPosts());
     }, []);
 
-    
 
   return (
     <div>
-        <table>
-            {data?.list?.map((item)=>{
+         {data?.list?.map((item)=>{
                 return(
                     <div>
-                        <tr>
-                            <td> {item.id}</td>
-                            <td> {item.title}</td>
-
-                            <td> {item.price}</td>
-                            <td> {item.description}</td>
-                        </tr>
+                        {/* {item.image} */}
+                             {item.id},
+                             {item.title},
+                             {item.price},
+                             {item.description},
                      </div>  
-                )
-                
+                )  
             })}
-   </table>
     </div>
   )
 }
