@@ -105,6 +105,10 @@ import Posts from './Reduser11/Post/Posts';
 import Boostep from './Boostep';
 import Posts1 from './Reduser11/PostDemo2/DataPo';
 import Calsscomp from './Leval2oll/class/Calsscomp';
+import Formc1 from './Leval2oll/class/Formc1';
+import Input11 from './Leval2oll/class/Input11';
+import Tipp from './Reduser11/PrecTiS1.js/Tipp';
+
 
 
 
@@ -196,6 +200,7 @@ root.render(
     {/* <Posts/> */}
 
     {/* <Posts1/> */}
+    <Tipp/>
 
   </Provider>
 
@@ -242,15 +247,18 @@ root.render(
 
           <Route path="*" element={<Error/>} />                 
   </Routes>
-  
    <Footer/>
-  
+
   </Suspense>
   </BrowserRouter>  
    
   */}
 
-  <Calsscomp/>
+   {/* class componet .....................  */}
+
+        {/* <Calsscomp/> */}
+        {/* <Formc1/> */}
+       {/* <Input11/> */}
   
    
   </React.StrictMode>

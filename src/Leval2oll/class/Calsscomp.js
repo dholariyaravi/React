@@ -5,7 +5,9 @@ import Calss2 from './Calss2'
 export default class Calsscomp extends Component {
    constructor() {
      super();
-     this.state = { array: [], taxname:" "};
+     this.state = {
+        array: [], 
+        taxname:" " };
    }
  
    onchenj1 =(e) => {

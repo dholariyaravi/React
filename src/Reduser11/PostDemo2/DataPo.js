@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { getPosts } from './DPostS';
 
 
-const Posts1= ()=> {
+const Posts1 = () => {
     const data =useSelector(state =>state.Posts1)
 
     const dispatch = useDispatch();
