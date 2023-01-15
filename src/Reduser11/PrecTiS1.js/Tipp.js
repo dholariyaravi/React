@@ -15,7 +15,6 @@ import { getPosts1 } from './Out';
           },[]);
 
 
-
   return (
     <div>
         {data?.list1?.map((item,index) => {

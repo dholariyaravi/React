@@ -29,16 +29,15 @@ export default class Formc1 extends Component {
   render() {
     return (
       <div>
-        <form onSubmit={this.mysubmit}>
+        <form  onSubmit={this.mysubmit} >
        
+        <input type='text' className='coll-11' value={this.state.FristName} name='FristName' placeholder='FristName' onChange={this.hendal}/>
+        <input type='text' className='coll-11' name='Lastname' placeholder='Lastname' onChange={this.hendal}/> 
         
-        <input type='text' value={this.state.FristName} name='FristName' placeholder='FristName' onChange={this.hendal}/>
-        <input type='text' name='Lastname' placeholder='Lastname' onChange={this.hendal}/> 
-        
-        <input type='text' name='Adrees' placeholder='Adrees' onChange={this.hendal}/>
-        <input type='text' name='MobaliNO' placeholder='MobaliNO' onChange={this.hendal}/> 
-        <input type='text' name='city' placeholder='city' onChange={this.hendal}/> 
-        <input type='submit'value='Save'/>
+        <input type='text' className='coll-11' name='Adrees' placeholder='Adrees' onChange={this.hendal}/>
+        <input type='text' className='coll-11' name='MobaliNO' placeholder='MobaliNO' onChange={this.hendal}/> 
+        <input type='text' className='coll-11' name='city' placeholder='city' onChange={this.hendal}/> 
+        <input type='submit'value='Save' className='coll-11'/>
         </form>
       </div>
     )

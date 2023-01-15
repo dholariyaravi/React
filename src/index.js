@@ -200,7 +200,7 @@ root.render(
     {/* <Posts/> */}
 
     {/* <Posts1/> */}
-    <Tipp/>
+    {/* <Tipp/> */}
 
   </Provider>
 
@@ -257,7 +257,7 @@ root.render(
    {/* class componet .....................  */}
 
         {/* <Calsscomp/> */}
-        {/* <Formc1/> */}
+        <Formc1/>
        {/* <Input11/> */}
   
    
