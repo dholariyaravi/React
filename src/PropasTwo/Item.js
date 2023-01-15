@@ -95,7 +95,7 @@ export default function Item() {
 
         <Item1 round={data} remove={mydelet} add={Edit} find={Search} ></Item1> 
 
-
+      
     </div>
   )
 }

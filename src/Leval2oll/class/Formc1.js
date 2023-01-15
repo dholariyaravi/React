@@ -25,7 +25,6 @@ export default class Formc1 extends Component {
        }
        
   
-
   render() {
     return (
       <div>

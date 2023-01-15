@@ -108,6 +108,8 @@ import Calsscomp from './Leval2oll/class/Calsscomp';
 import Formc1 from './Leval2oll/class/Formc1';
 import Input11 from './Leval2oll/class/Input11';
 import Tipp from './Reduser11/PrecTiS1.js/Tipp';
+import FormS1 from './Simpal/FormS1';
+import Apppi2 from './Simpal/Apppi2';
 
 
 
@@ -257,8 +259,10 @@ root.render(
    {/* class componet .....................  */}
 
         {/* <Calsscomp/> */}
-        <Formc1/>
+        {/* <Formc1/> */}
        {/* <Input11/> */}
+       <FormS1/>
+       <Apppi2/>
   
    
   </React.StrictMode>
