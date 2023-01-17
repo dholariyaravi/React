@@ -19,8 +19,7 @@ export default function Prop1() {
             {data1.map ((value) => {
                 return(
                   <Propas13 recod={value}></Propas13>
-                )
-                
+                )   
             })}
         </table>
     </div>
