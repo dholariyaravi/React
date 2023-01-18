@@ -110,6 +110,7 @@ import Input11 from './Leval2oll/class/Input11';
 import Tipp from './Reduser11/PrecTiS1.js/Tipp';
 import FormS1 from './Simpal/FormS1';
 import Apppi2 from './Simpal/Apppi2';
+import LForm99 from './Leval2oll/LForm9/LForm99';
 
 
 
@@ -182,8 +183,8 @@ root.render(
   {/* <Formtest/>
   <Datapass1/> */}
   {/* <Task33/> */}
-  {/* <Form111/> */}
-  {/* <Mymate/> */}
+  {/* <Form111/>
+  <Mymate/> */}
   {/* <Memo1/> */}
   {/* < Usememo text='my name is ravi dhlariya i am 20 year old i am pursuing Bcom from ms univarshiti'/> */}
   
@@ -261,8 +262,10 @@ root.render(
         {/* <Calsscomp/> */}
         {/* <Formc1/> */}
        {/* <Input11/> */}
-       <FormS1/>
-       <Apppi2/>
+       {/* <FormS1/> */}
+       {/* <Apppi2/> */}
+
+       <LForm99/>
   
    
   </React.StrictMode>
