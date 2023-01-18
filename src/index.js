@@ -111,6 +111,7 @@ import Tipp from './Reduser11/PrecTiS1.js/Tipp';
 import FormS1 from './Simpal/FormS1';
 import Apppi2 from './Simpal/Apppi2';
 import LForm99 from './Leval2oll/LForm9/LForm99';
+import DForm22 from './Leval2oll/LForm9/DForm22';
 
 
 
@@ -265,7 +266,8 @@ root.render(
        {/* <FormS1/> */}
        {/* <Apppi2/> */}
 
-       <LForm99/>
+       {/* <LForm99/> */}
+       <DForm22/>
   
    
   </React.StrictMode>
