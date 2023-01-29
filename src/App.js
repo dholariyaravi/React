@@ -14,37 +14,37 @@ import Fromsi1 from './Fromsipal.js/Fromsi1';
 
 function App() {
 
-  let element = useRoutes([
-    {
-      path : 'Css',
-      element : <Css/>,
-      children: [
-        {
-          path : 'Html11',
-          element : <Html11/>,
-        },
-        {path : 'Javascript',
-        element : <Javascript/>},
-      ],
-    },
-    {
-      path : '/',
-      element : <App/>,
-    },
-    {
-      path : '/Form11',
-      element : <Form11/>,
-    },
-    {         
-      path : '/Grid2img',
-      element : <Grid2img/>, 
-    },
-    {
-      path : '/Fromsi1',
-      element : <Fromsi1/>,
-    }
+  // let element = useRoutes([
+  //   {
+  //     path : 'Css',
+  //     element : <Css/>,
+  //     children: [
+  //       {
+  //         path : 'Html11',
+  //         element : <Html11/>,
+  //       },
+  //       {path : 'Javascript',
+  //       element : <Javascript/>},
+  //     ],
+  //   },
+  //   {
+  //     path : '/',
+  //     element : <App/>,
+  //   },
+  //   {
+  //     path : '/Form11',
+  //     element : <Form11/>,
+  //   },
+  //   {         
+  //     path : '/Grid2img',
+  //     element : <Grid2img/>, 
+  //   },
+  //   {
+  //     path : '/Fromsi1',
+  //     element : <Fromsi1/>,
+  //   }
    
-  ])
+  // ])
   // const [lan, setlan] = useState('en');
 
   // return element ;
@@ -52,6 +52,9 @@ function App() {
   return (
    <div>
 
+  <h2 style={{color:'darkblue'}}>
+     hello hello hello
+  </h2>
 
     {/* <Contex.Provider value={{lan,setlan}}>
    

@@ -57,6 +57,7 @@ export default function Formsw1() {
             </Form>
 
         </Formik><br/>
+        
         <Link className='btn' to={'/'}>Login</Link>
     </div>
   )

@@ -33,8 +33,7 @@ export default function Loginsw2() {
         setrow(y.data)
        }).catch(y=>{
         console.log(y)
-       });
-       
+       }); 
    }
    
 
@@ -81,12 +80,12 @@ export default function Loginsw2() {
         </Formik> <br/>
         <Link className='btn' to={'/register'}>Register</Link>
 
-        {/* <button type='submit' onClick={output1} className="btn">fetch</button> <br/> */}
+        <button type='submit' onClick={output1} className="btn">fetch</button> <br/>
 
-        {/* <div className="ag-theme-alpine" style={{width: 500, height: 500}}>
+        <div className="ag-theme-alpine" style={{width: 500, height: 500}}>
         <AgGridReact rowData={row} columnDefs={column} ></AgGridReact>
         </div>
-         */}
+        
     </div>
   );
 };

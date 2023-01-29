@@ -113,6 +113,11 @@ import Apppi2 from './Simpal/Apppi2';
 import LForm99 from './Leval2oll/LForm9/LForm99';
 import DForm22 from './Leval2oll/LForm9/DForm22';
 
+import Deletappi from './Leval2oll/LForm9/DEleApi1';
+
+
+
+
 
 
 
@@ -137,6 +142,7 @@ const Grid2imglazy = React.lazy  (() => import('./Grid/Grid2img'));
 root.render( 
   <React.StrictMode>
     <ToastContainer/>
+    
      {/* <App/> */}
     
    {/* <Use/> */}
@@ -207,9 +213,9 @@ root.render(
     {/* <Tipp/> */}
 
   </Provider>
-
-  {/* <Formsw1/> */}
-  {/* <Loginsw2/> */}
+{/* 
+  <Formsw1/> .................
+  <Loginsw2/> ...................    */}
   {/* <Useref1/> */}
   {/* <Au111/> */}
 
@@ -221,7 +227,7 @@ root.render(
   {/* <InquiryForm/> */}
   {/* <Boostep/> */}
 
-
+  
 
   {/* <ErrorBoundary
     FallbackComponent={ErrorFallback}
@@ -232,8 +238,8 @@ root.render(
   </ErrorBoundary> */}
 
  
-{/* 
-  <BrowserRouter> 
+
+  {/* <BrowserRouter> 
    <Suspense fallback={<div>Loading...</div>}>
 
    <Header/>
@@ -250,13 +256,13 @@ root.render(
         </Route>
 
           <Route path="*" element={<Error/>} />                 
-  </Routes>
+  </Routes><br/>
    <Footer/>
 
   </Suspense>
-  </BrowserRouter>  
+  </BrowserRouter>   */}
    
-  */}
+ 
 
    {/* class componet .....................  */}
 
@@ -267,7 +273,21 @@ root.render(
        {/* <Apppi2/> */}
 
        {/* <LForm99/> */}
-       <DForm22/>
+       {/* <DForm22/> */}
+       {/* <Deletappi/> */}
+
+
+
+
+
+     
+
+     
+
+
+
+   
+
   
    
   </React.StrictMode>

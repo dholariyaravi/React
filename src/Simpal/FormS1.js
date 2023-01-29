@@ -23,8 +23,8 @@ export default function FormS1() {
         let  mydata = [...mydelet];
         mydata.splice(index,1);
         setmydelet(mydata);
-
     }
+
     const Edit1 = (index) => {
         let mydata =  mydelet[index];
         setdata(mydata);
